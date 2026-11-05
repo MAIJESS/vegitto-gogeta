@@ -1,4 +1,4 @@
-# Vegito & Gogeta — temas para Kino TV
+# Vegitto & Gogeta — temas para Kino TV
 
 Plugin de **temas para toda la app** (`apiVersion 18`) con dos aspectos inspirados en la fusión de Dragon Ball:
 
