@@ -1,4 +1,4 @@
-# Vegitto vs Gogeta Fusion Theme for Kino TV
+# Vegitto+Gogeta
 
 Un tema visual inspirado en las dos fusiones más poderosas de la franquicia Dragon Ball (**Vegitto y Gogeta**), diseñado específicamente para adaptarse a la interfaz de **Kino TV**.
 
