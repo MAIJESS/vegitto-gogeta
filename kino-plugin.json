@@ -1,0 +1,363 @@
+{
+  "id": "theme-vegito-gogeta",
+  "name": "Vegitto & Gogeta",
+  "version": "1.0.0",
+  "icon": "icon.png",
+  "apiVersion": 18,
+  "entry": "plugin.js",
+  "description": "Dos temas de fusión para toda la app: Vegito Blue (azul Dios Super Saiyan) y Gogeta Fusion (oro y violeta). Colores, fondo, logo propio y bordes.",
+  "author": "Fan project",
+  "hosts": [],
+  "capabilities": [
+    "screen"
+  ],
+  "categories": [
+    "themes"
+  ],
+  "color": "#29B6FF",
+  "screen": {
+    "label": "Vegitto & Gogeta",
+    "labelEn": "Vegitto & Gogeta",
+    "opensFrom": [
+      "settings"
+    ],
+    "settingsButton": {
+      "label": "Ver temas",
+      "labelEn": "See themes"
+    }
+  },
+  "appThemes": [
+    {
+      "id": "vegito-blue",
+      "name": {
+        "es": "Vegitto Blue",
+        "en": "Vegitto Blue"
+      },
+      "experience": "full",
+      "pluginColors": "respect",
+      "colors": {
+        "accent": "#29B6FF",
+        "onAccent": "#00121F",
+        "background": "#060B1E",
+        "surface": "#0D1630",
+        "surfaceHigh": "#16224A",
+        "railPanel": "#0A1230",
+        "textPrimary": "#F2F7FF",
+        "textSecondary": "#A8BAE0",
+        "focus": "#FFC107",
+        "onFocus": "#0A0A0A",
+        "outline": "#24376E",
+        "border": "#2F8CFF",
+        "placeholderTop": "#12204A",
+        "placeholderBottom": "#0A1230",
+        "success": "#2EE59D",
+        "warning": "#FFC107",
+        "error": "#FF5470",
+        "favorite": "#FFC107",
+        "scrim": "#02040C"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#050A1C",
+          "#0B2A5B"
+        ],
+        "angle": 180
+      },
+      "shape": {
+        "cardRadius": 8,
+        "channelRadius": 8,
+        "buttonRadius": 10,
+        "chipRadius": 12,
+        "dialogRadius": 14,
+        "inputRadius": 8,
+        "dialogBorder": 2,
+        "menuBorder": 1,
+        "headerBorder": 1,
+        "cardBorder": 1,
+        "panelBorder": 1
+      },
+      "typography": {
+        "scale": 1,
+        "titleScale": 1.08,
+        "bodyScale": 1
+      },
+      "elevation": {
+        "cardShadow": 0.6,
+        "dialogShadow": 0.85,
+        "heroScrim": 0.7
+      },
+      "motion": {
+        "focusZoom": 1.08,
+        "crossfadeMs": 350,
+        "heroDrift": "on"
+      },
+      "player": {
+        "buttonScale": 1.1,
+        "playButtonScale": 1.3,
+        "seekBarScale": 1.3,
+        "labelScale": 1,
+        "buttonShape": "rounded"
+      },
+      "tv": {
+        "typography": {
+          "scale": 1.05
+        },
+        "shape": {
+          "cardRadius": 6,
+          "cardBorder": 1
+        }
+      },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#29B6FF",
+            "#9A7DFF",
+            "#00E5A8",
+            "#FF5470"
+          ]
+        },
+        "colors.focus": {
+          "swatches": [
+            "#FFC107",
+            "#FFFFFF",
+            "#00E5FF"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 0,
+          "max": 20
+        },
+        "typography.scale": {
+          "min": 0.9,
+          "max": 1.3
+        },
+        "player.buttonScale": {
+          "min": 0.9,
+          "max": 1.4
+        },
+        "background": true
+      },
+      "logo": {
+        "wordmark": {
+          "size": [
+            180,
+            40
+          ],
+          "paths": [
+            {
+              "d": "M4 26 L8 4 L15 16 L20 0 L25 16 L32 4 L36 26 L20 22 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M4 30 L8 27 L12 30 L8 38 Z M28 30 L32 27 L36 30 L32 38 Z",
+              "fill": "#FFC107"
+            },
+            {
+              "d": "M21 24 L15 33 H19 L17 40 L25 30 H21 Z",
+              "fill": "textPrimary"
+            },
+            {
+              "d": "M52 4 H60 V16 L70 4 H80 L67 19 L81 36 H70 L60 24 V36 H52 Z M88 4 H97 V36 H88 Z",
+              "fill": "textPrimary"
+            },
+            {
+              "d": "M105 36 V4 H114 L127 22 V4 H136 V36 H127 L114 18 V36 Z",
+              "fill": "textPrimary"
+            },
+            {
+              "d": "M144 8 L148 4 H168 L172 8 V13 H144 Z M144 27 H172 V32 L168 36 H148 L144 32 Z M144 13 H152 V27 H144 Z M164 13 H172 V27 H164 Z",
+              "fill": "accent"
+            }
+          ]
+        },
+        "mark": {
+          "size": [
+            40,
+            40
+          ],
+          "paths": [
+            {
+              "d": "M4 26 L8 4 L15 16 L20 0 L25 16 L32 4 L36 26 L20 22 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M4 30 L8 27 L12 30 L8 38 Z M28 30 L32 27 L36 30 L32 38 Z",
+              "fill": "#FFC107"
+            },
+            {
+              "d": "M21 24 L15 33 H19 L17 40 L25 30 H21 Z",
+              "fill": "textPrimary"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "gogeta-fusion",
+      "name": {
+        "es": "Gogeta Fusión",
+        "en": "Gogeta Fusion"
+      },
+      "experience": "full",
+      "pluginColors": "respect",
+      "colors": {
+        "accent": "#FFB300",
+        "onAccent": "#1A0A00",
+        "background": "#09061A",
+        "surface": "#150F2E",
+        "surfaceHigh": "#21184A",
+        "railPanel": "#110B26",
+        "textPrimary": "#FFF8EC",
+        "textSecondary": "#CDBFE6",
+        "focus": "#4FD8FF",
+        "onFocus": "#00131C",
+        "outline": "#3A2A6B",
+        "border": "#FFB300",
+        "placeholderTop": "#231A4D",
+        "placeholderBottom": "#120C2A",
+        "success": "#3DDC97",
+        "warning": "#FFB300",
+        "error": "#FF4D6D",
+        "favorite": "#FF7A1A",
+        "scrim": "#04020C"
+      },
+      "background": {
+        "type": "gradient",
+        "colors": [
+          "#0A0618",
+          "#2A0F4A"
+        ],
+        "angle": 180
+      },
+      "shape": {
+        "cardRadius": 16,
+        "channelRadius": 16,
+        "buttonRadius": 26,
+        "chipRadius": 20,
+        "dialogRadius": 22,
+        "inputRadius": 14,
+        "dialogBorder": 2,
+        "menuBorder": 1,
+        "headerBorder": 1,
+        "cardBorder": 1,
+        "panelBorder": 1
+      },
+      "typography": {
+        "scale": 1,
+        "titleScale": 1.08,
+        "bodyScale": 1
+      },
+      "elevation": {
+        "cardShadow": 0.7,
+        "dialogShadow": 0.9,
+        "heroScrim": 0.75
+      },
+      "motion": {
+        "focusZoom": 1.1,
+        "crossfadeMs": 250,
+        "heroDrift": "on"
+      },
+      "player": {
+        "buttonScale": 1.15,
+        "playButtonScale": 1.4,
+        "seekBarScale": 1.4,
+        "labelScale": 1,
+        "buttonShape": "circle"
+      },
+      "tv": {
+        "typography": {
+          "scale": 1.05
+        },
+        "shape": {
+          "cardRadius": 10,
+          "cardBorder": 1
+        }
+      },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#FFB300",
+            "#FF7A1A",
+            "#FF4D6D",
+            "#B388FF"
+          ]
+        },
+        "colors.focus": {
+          "swatches": [
+            "#4FD8FF",
+            "#FFFFFF",
+            "#FFC107"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 0,
+          "max": 24
+        },
+        "typography.scale": {
+          "min": 0.9,
+          "max": 1.3
+        },
+        "player.buttonScale": {
+          "min": 0.9,
+          "max": 1.4
+        },
+        "background": true
+      },
+      "logo": {
+        "wordmark": {
+          "size": [
+            180,
+            40
+          ],
+          "paths": [
+            {
+              "d": "M20 0 L26 12 L38 8 L30 20 L38 32 L26 28 L20 40 L14 28 L2 32 L10 20 L2 8 L14 12 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M20 10 L24 18 L32 20 L24 22 L20 30 L16 22 L8 20 L16 18 Z",
+              "fill": "onAccent"
+            },
+            {
+              "d": "M20 16 L24 20 L20 24 L16 20 Z",
+              "fill": "textPrimary"
+            },
+            {
+              "d": "M52 4 H60 V16 L70 4 H80 L67 19 L81 36 H70 L60 24 V36 H52 Z M88 4 H97 V36 H88 Z",
+              "fill": "textPrimary"
+            },
+            {
+              "d": "M105 36 V4 H114 L127 22 V4 H136 V36 H127 L114 18 V36 Z",
+              "fill": "textPrimary"
+            },
+            {
+              "d": "M144 8 L148 4 H168 L172 8 V13 H144 Z M144 27 H172 V32 L168 36 H148 L144 32 Z M144 13 H152 V27 H144 Z M164 13 H172 V27 H164 Z",
+              "fill": "accent"
+            }
+          ]
+        },
+        "mark": {
+          "size": [
+            40,
+            40
+          ],
+          "paths": [
+            {
+              "d": "M20 0 L26 12 L38 8 L30 20 L38 32 L26 28 L20 40 L14 28 L2 32 L10 20 L2 8 L14 12 Z",
+              "fill": "accent"
+            },
+            {
+              "d": "M20 10 L24 18 L32 20 L24 22 L20 30 L16 22 L8 20 L16 18 Z",
+              "fill": "onAccent"
+            },
+            {
+              "d": "M20 16 L24 20 L20 24 L16 20 Z",
+              "fill": "textPrimary"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
