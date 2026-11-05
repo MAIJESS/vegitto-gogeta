@@ -2,6 +2,7 @@
   "id": "theme-vegito-gogeta",
   "name": "Vegito & Gogeta",
   "version": "1.0.0",
+  "icon": "icon.png",
   "apiVersion": 18,
   "entry": "plugin.js",
   "description": "Dos temas de fusión para toda la app: Vegito Blue (azul Dios Super Saiyan) y Gogeta Fusion (oro y violeta). Colores, fondo, logo propio y bordes.",
@@ -14,7 +15,6 @@
     "themes"
   ],
   "color": "#29B6FF",
-  "icon": "icon.png",
   "screen": {
     "label": "Vegito & Gogeta",
     "labelEn": "Vegito & Gogeta",
