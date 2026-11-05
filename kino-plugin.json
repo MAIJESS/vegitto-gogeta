@@ -7,13 +7,12 @@
   "entry": "plugin.js",
   "description": "Tema visual inspirado en la dualidad de las fusiones Saiyajin (Vegitto y Gogeta), optimizado para Kino TV.",
   "author": "Kino Community",
+  "icon": "icon.png",
   "hosts": [],
   "categories": [
     "themes"
   ],
-  "permissions": {
-    "network": []
-  },
+  "permissions": [],
   "appThemes": [
     {
       "id": "kino-theme-vegitto-vs-gogeta",
